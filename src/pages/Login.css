@@ -1,0 +1,157 @@
+
+.login-page {
+  background-color: #ffffff;
+}
+
+.login-image {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #081c33;
+}
+
+.login-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.login-form-side {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.login-form {
+  max-width: 430px;
+}
+
+.back-btn {
+  color: #153b65;
+  border: 1px solid #153b65;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #153b65;
+  color: #ffffff;
+}
+
+.login-form h2 {
+  color: #153b65;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.login-subtitle {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.login-form .form-label {
+  color: #24364b;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.login-form .form-control {
+  min-height: 46px;
+  border: 1px solid #d7dee8;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+.login-form .form-control:focus {
+  border-color: #153b65;
+  box-shadow: 0 0 0 3px rgba(21, 59, 101, 0.12);
+}
+
+.login-form .form-check-input {
+  cursor: pointer;
+}
+
+.login-form .form-check-input:checked {
+  background-color: #153b65;
+  border-color: #153b65;
+}
+
+.login-form .form-check-label {
+  color: #4b5563;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.forgot-password-link {
+  color: #153b65;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  min-height: 46px;
+  background-color: #153b65 !important;
+  color: #ffffff !important;
+  border: 2px solid #153b65 !important;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #ffffff !important;
+  color: #153b65 !important;
+}
+
+
+.signup-link {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #153b65;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 991.98px) {
+  .login-image {
+    position: relative;
+    height: 260px;
+  }
+
+  .login-form-side {
+    min-height: auto;
+  }
+
+  .login-form {
+    max-width: 460px;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+  .login-image {
+    height: 190px;
+  }
+
+  .login-form h2 {
+    font-size: 26px;
+  }
+}

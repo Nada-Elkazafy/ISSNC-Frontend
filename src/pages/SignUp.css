@@ -1,0 +1,145 @@
+
+.signup-page {
+  background-color: #ffffff;
+}
+
+
+.signup-image {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #081c33;
+}
+
+.signup-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.signup-form-side {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.signup-form {
+  max-width: 430px;
+}
+
+
+.back-btn {
+  color: #153b65;
+  border: 1px solid #153b65;
+  border-radius: 8px;
+}
+
+.back-btn:hover {
+  background-color: #153b65;
+  color: #ffffff;
+}
+
+.signup-form h2 {
+  color: #153b65;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.signup-subtitle {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.signup-form .form-label {
+  color: #24364b;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.signup-form .form-control {
+  min-height: 42px;
+  border: 1px solid #d7dee8;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.signup-form .form-control:focus {
+  border-color: #153b65;
+  box-shadow: 0 0 0 3px rgba(21, 59, 101, 0.12);
+}
+
+.signup-form .form-check-input {
+  cursor: pointer;
+}
+
+.signup-form .form-check-input:checked {
+  background-color: #153b65;
+  border-color: #153b65;
+}
+
+.signup-form .form-check-label {
+  color: #4b5563;
+  font-size: 12px;
+}
+
+
+.signup-btn {
+  min-height: 43px;
+  background-color: #153b65 !important;
+  color: #ffffff !important;
+  border: 2px solid #153b65 !important;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.signup-btn:hover {
+  background-color: #ffffff !important;
+  color: #153b65 !important;
+}
+
+
+.login-link {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.login-link a {
+  color: #153b65;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 991.98px) {
+  .signup-image {
+    position: relative;
+    height: 260px;
+  }
+
+  .signup-form-side {
+    min-height: auto;
+  }
+
+  .signup-form {
+    max-width: 460px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .signup-image {
+    height: 190px;
+  }
+
+  .signup-form h2 {
+    font-size: 26px;
+  }
+}
